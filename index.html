@@ -10,8 +10,8 @@
 <body>
     <!-- Header -->
     <header>
-        <img class="align-middle" id="header-logo-img" src="img/Logo.png" alt="Logo Boolean">
-        <span class="align-middle" id="header-logo-text">Toboolist</span>
+        <img class="align-middle" src="img/Logo.png" alt="Logo Boolean">
+        <span class="align-middle">Toboolist</span>
     </header>
 
     <!-- /Header -->
@@ -21,14 +21,78 @@
         <div class="container bg-white mt-4">
             <!-- Navigazione -->
             <nav class="main-nav">
-                Questa è la parte di navigazione
+                <button class="btn btn-blue">Add Task</button>
+                <button class="btn btn-light">Add section</button>
             </nav>
 
             <!-- Content del main -->
             <div class="main-content">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, assumenda. Et repudiandae debitis autem voluptatem ratione velit inventore sit, labore blanditiis itaque nemo deleniti ipsa neque veniam amet optio laboriosam!
+                <ul class="todo-list">
+                    <li>
+                        <h2><span>&#9662;</span>New Task</h2>
+                        <ul class="inner-todo-list">
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Quarterly Newsletter
+                                <span class="tag tag-1">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h2><span>&#9662;</span>Today</h2>
+                        <ul class="inner-todo-list">
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Recruiting blog post
+                                <span class="tag tag-1">Editorial</span>
+                            </li>
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Mobile app luaunch
+                                <span class="tag tag-2">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle canceled">&cross;</span>
+                                Interview John H.
+                                <span class="tag tag-3">Recruiting</span>
+                            </li>
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Summit update to mobile storefronts
+                                <span class="tag tag-4">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h2><span>&#9662;</span>Upcoming</h2>
+                        <ul class="inner-todo-list">
+                            <li>
+                                <span class="circle canceled">&cross;</span>
+                                Schedule meeting with Alex
+                            </li>
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Homepage refresh
+                                <span class="tag tag-5">Website</span>
+                            </li>
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Onboard new Salex team members
+                                <span class="tag tag-6">Sales</span>
+                            </li>
+                            <li>
+                                <span class="circle checked">&check;</span>
+                                Review editorial calendar
+                                <span class="tag tag-1">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
+
     </main>
     <!-- /Main -->
 </body>

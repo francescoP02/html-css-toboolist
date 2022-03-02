@@ -1,18 +1,22 @@
 /* RESET */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* COMMON */
+
 html {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
 }
 
 body {
     background-color: #f6f8f9;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -25,16 +29,32 @@ body {
 }
 
 .bg-white {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .mt-4 {
     margin-top: 4em;
 }
 
+.btn {
+    padding: 0.3em 1em;
+    border-radius: 4px;
+    color: #d8d1d1;
+}
+
+.btn-blue {
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+
+.btn-light {
+    background-color: white;
+    border: 1px solid #d8d1d1;
+}
+
 /* HEADER */
 header {
-    background-color: #ffffff;
+    background-color: white;
     height: 60px;
     line-height: 60px;
     padding: 0 1em;
@@ -42,6 +62,93 @@ header {
     font-weight: bold;
 }
 
-#header-logo-text {
-    
+/* #header-logo-img {
+    margin: 0 .5em 0 1em;
+}
+ */
+
+ /* CONTENT */
+.main-nav {
+   padding: 1em 2em .8em 2em; 
+   border-bottom: 2px solid #f6f8f9;
+}
+
+ .main-content {
+    padding: 1.2em 2em;
+ }
+
+/* Todolist */
+.todo-list > li {
+    margin-bottom: 1em;
+}
+
+.todo-list h2 {
+    margin-bottom: .6em;
+}
+
+.todo-list h2 span {
+    margin-right: .5em;
+}
+
+.inner-todo-list > li {
+    margin-bottom: .6em;
+}
+
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.checked {
+    color: green;
+    border-color: green;
+}
+
+.canceled {
+    color: red;
+    border-color: red;
+}
+
+.tag {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0.1em 0.5em;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.tag-1 {
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+
+.tag-2 {
+    background-color: #9C72E4;
+    border: 1px solid #9C72E4;
+}
+
+.tag-3 {
+    background-color: #64c0a9;
+    border: 1px solid #64c0a9;
+}
+
+.tag-4 {
+    background-color: #f29e33;
+    border: 1px solid #f29e33;
+}
+
+.tag-5 {
+    background-color: #d863a1;
+    border: 1px solid #d863a1;
+}
+
+.tag-6 {
+    background-color: #b0c926;
+    border: 1px solid #b0c926;
 }
