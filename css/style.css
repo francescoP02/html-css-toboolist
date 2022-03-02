@@ -1,0 +1,47 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+/* HEADER */
+header {
+    background-color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#header-logo-text {
+    
+}
